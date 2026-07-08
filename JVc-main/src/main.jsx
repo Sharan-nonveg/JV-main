@@ -887,7 +887,14 @@ function Footer() {
             <span className="text-xl font-bold text-green-400">CRICKET</span>
           </div>
           <p className="text-sm leading-7 text-zinc-400">Premium cricket portfolio showcasing excellence on and off the field.</p>
-          <p className="mt-4 text-sm text-green-400">Crafted with passion</p>
+          <a
+            href="https://www.codemeshflow.in"
+            target="_blank"
+            rel="noreferrer"
+            className="mt-4 inline-flex text-sm font-medium text-green-400 transition hover:text-green-300"
+          >
+            Made by CodeMeshFlow
+          </a>
         </div>
         <FooterLinks title="Navigate" links={["Home", "About", "Gallery", "Journey"]} />
         <FooterLinks title="Information" links={["Stats", "Certificates", "Contact"]} targets={["stats", "gallery", "contact"]} />
